@@ -2,7 +2,7 @@
 
 
 body {
-  background-image: url("../images/background.png");
+  background-image: url("D:\Projects\weatherApp\React-Weather-App\images\4205986.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -10,6 +10,7 @@ body {
   font-family: 'Poppins', sans-serif;  
   margin: 0;
   padding: 0;
+  color: #000000;
 }
 
 .App {
@@ -45,7 +46,7 @@ body {
 }
 
 .SearchEngine input::placeholder {
-  color: #555;
+  color: #000000;
   font-weight: 500;
   font-style: italic;
 }
@@ -55,7 +56,7 @@ body {
   height: 44px; /* Updated */
   border: none;
   border-radius: 9%; /* Updated */
-  background-color: #84cef5; /* Updated */
+  background-color: #054567; /* Updated */
   color: #fff;
   font-size: 20px;
   outline: none;
@@ -67,7 +68,7 @@ body {
 }
 
 .SearchEngine button:hover i {
-  color: #f06789;
+  color: #054567;
 }
 
 .error-message {

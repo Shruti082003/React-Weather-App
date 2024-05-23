@@ -12,7 +12,7 @@ function SearchEngine({ query, setQuery, search }) {
         onChange={(e) => setQuery(e.target.value)}
         onKeyPress={search}
       />
-      <button><i className="fas fa-search" style={{ fontSize: "18px" }}></i></button>
+      
     </div>
   );
 }
